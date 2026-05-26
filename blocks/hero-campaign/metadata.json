@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-campaign",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-26T06:09:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ford.com/",
+    "originPage": "Ford homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "campaign-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + disclosure + 2 CTAs",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero banners",
+      "campaign landing pages",
+      "promotional pages with full-bleed video/image"
+    ],
+    "notSuitableFor": [
+      "text-only hero sections",
+      "product detail pages",
+      "simple blog post headers"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T06:09:00.000Z"
+  }
+}

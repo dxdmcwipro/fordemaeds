@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-cta",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-26T06:09:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ford.com/",
+    "originPage": "Ford homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "newsletter-cta",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + description",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["newsletter signup CTAs", "single action prompts", "subscription cards with icons"],
+    "notSuitableFor": ["multi-item grids", "image galleries", "detailed product listings"]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T06:09:00.000Z"
+  }
+}

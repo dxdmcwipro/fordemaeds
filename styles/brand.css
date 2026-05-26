@@ -1,0 +1,44 @@
+:root {
+  /* Ford Brand Colors */
+  --background-color: #fff;
+  --text-color: #333;
+  --link-color: #066fef;
+  --link-hover-color: #0562d2;
+  --ford-blue: #066fef;
+  --light-color: #f4f4f4;
+  --dark-color: #000;
+  --grey-color: #666;
+
+  /* Ford Typography */
+  --body-font-family: 'Ford F1', ford-f1-fallback, arial, sans-serif;
+  --heading-font-family: 'Ford F1', ford-f1-fallback, arial, sans-serif;
+
+  /* Body Sizes */
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
+
+  /* Heading Sizes (mobile-first) */
+  --heading-font-size-xxl: 32px;
+  --heading-font-size-xl: 28px;
+  --heading-font-size-l: 24px;
+  --heading-font-size-m: 20px;
+  --heading-font-size-s: 18px;
+  --heading-font-size-xs: 16px;
+
+  /* Layout */
+  --section-padding: 40px;
+  --nav-height: 56px;
+  --content-max-width: 1200px;
+}
+
+@media (width >= 900px) {
+  :root {
+    --heading-font-size-xxl: 36px;
+    --heading-font-size-xl: 32px;
+    --heading-font-size-l: 28px;
+    --heading-font-size-m: 24px;
+    --heading-font-size-s: 20px;
+    --heading-font-size-xs: 16px;
+  }
+}

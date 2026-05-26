@@ -1,0 +1,31 @@
+{
+  "variantName": "carousel-stories",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-05-26T06:09:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ford.com/",
+    "originPage": "Ford homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "stories-news",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image/video + overlay title + 2 CTAs",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["news and stories carousels", "editorial content slideshows", "community highlights"],
+    "notSuitableFor": ["product offer carousels", "simple image galleries", "category navigation"]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T06:09:00.000Z"
+  }
+}

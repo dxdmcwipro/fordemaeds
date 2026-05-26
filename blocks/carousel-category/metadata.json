@@ -1,0 +1,31 @@
+{
+  "variantName": "carousel-category",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-05-26T06:09:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ford.com/",
+    "originPage": "Ford homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "category-browse",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "video/image background + category CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["vehicle category browsing", "product line navigation", "category showcase carousels"],
+    "notSuitableFor": ["text-heavy slides", "pricing carousels", "story-based content"]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T06:09:00.000Z"
+  }
+}

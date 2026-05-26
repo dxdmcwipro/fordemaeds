@@ -1,0 +1,31 @@
+{
+  "variantName": "tabs-vertical",
+  "baseBlock": "tabs",
+  "version": "1.0.0",
+  "created": "2026-05-26T06:09:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ford.com/",
+    "originPage": "Ford homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "owner-services",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "side image + tab label + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["service description tabs with paired images", "owner benefits sections", "vertical stacked tab layouts"],
+    "notSuitableFor": ["horizontal feature tabs", "technology showcases", "simple text tabs"]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T06:09:00.000Z"
+  }
+}

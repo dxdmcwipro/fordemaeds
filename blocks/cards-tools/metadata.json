@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-tools",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-26T06:09:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ford.com/",
+    "originPage": "Ford homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "quick-tools",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + description",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["quick tool link cards", "utility navigation grids", "icon-based action cards"],
+    "notSuitableFor": ["large image cards", "detailed product cards", "editorial content grids"]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-26T06:09:00.000Z"
+  }
+}

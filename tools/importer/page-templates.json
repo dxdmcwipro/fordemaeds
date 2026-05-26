@@ -1,0 +1,241 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+    "description": "Ford.com homepage with hero, carousels, tabs, cards, and CTA sections",
+    "urls": ["https://www.ford.com/"],
+    "blocks": [
+      {
+        "name": "hero",
+        "variant": "hero-campaign",
+        "description": "Full-bleed campaign hero with background image/video, headline, and CTAs",
+        "instances": [
+          {
+            "selector": "section.billboard[data-section='hero']",
+            "sectionNumber": 1,
+            "sequenceNumber": 1
+          }
+        ]
+      },
+      {
+        "name": "carousel",
+        "variant": "carousel-offers",
+        "description": "Horizontal carousel of vehicle offer cards with pricing and CTAs",
+        "instances": [
+          {
+            "selector": "section.featured-offers .carousel",
+            "sectionNumber": 2,
+            "sequenceNumber": 2
+          }
+        ]
+      },
+      {
+        "name": "carousel",
+        "variant": "carousel-highlights",
+        "description": "Full-width rotating slides with background images/video, overlay text, and CTAs",
+        "instances": [
+          {
+            "selector": "section.highlights .carousel",
+            "sectionNumber": 3,
+            "sequenceNumber": 1
+          }
+        ]
+      },
+      {
+        "name": "carousel",
+        "variant": "carousel-category",
+        "description": "Vehicle category cards with video/image and Learn More links",
+        "instances": [
+          {
+            "selector": "section.find-your-ford .carousel",
+            "sectionNumber": 4,
+            "sequenceNumber": 2
+          }
+        ]
+      },
+      {
+        "name": "carousel",
+        "variant": "carousel-awards",
+        "description": "Awards showcase carousel with vehicle images and titles",
+        "instances": [
+          {
+            "selector": "section.awards .carousel",
+            "sectionNumber": 5,
+            "sequenceNumber": 1
+          }
+        ]
+      },
+      {
+        "name": "tabs",
+        "variant": "tabs-media",
+        "description": "Technology features tabbed interface with text and media panels",
+        "instances": [
+          {
+            "selector": "section.technology .tabs",
+            "sectionNumber": 6,
+            "sequenceNumber": 2
+          }
+        ]
+      },
+      {
+        "name": "cards",
+        "variant": "cards-featured",
+        "description": "Single prominent card with image, heading, description, and CTA",
+        "instances": [
+          {
+            "selector": "section.buying-a-ford .build-price-card",
+            "sectionNumber": 7,
+            "sequenceNumber": 2
+          }
+        ]
+      },
+      {
+        "name": "cards",
+        "variant": "cards-tools",
+        "description": "Row of icon + heading + description action links",
+        "instances": [
+          {
+            "selector": "section.buying-a-ford .buying-tools",
+            "sectionNumber": 7,
+            "sequenceNumber": 3
+          }
+        ]
+      },
+      {
+        "name": "tabs",
+        "variant": "tabs-vertical",
+        "description": "Owner services with switching media images and tabbed content",
+        "instances": [
+          {
+            "selector": "section.owner-experience",
+            "sectionNumber": 8,
+            "sequenceNumber": 1
+          }
+        ]
+      },
+      {
+        "name": "carousel",
+        "variant": "carousel-stories",
+        "description": "News/stories carousel with large images and overlay CTAs",
+        "instances": [
+          {
+            "selector": "section.ford-inspires .carousel",
+            "sectionNumber": 9,
+            "sequenceNumber": 2
+          }
+        ]
+      },
+      {
+        "name": "cards",
+        "variant": "cards-gallery",
+        "description": "Image-only mosaic gallery of vehicle spotlight photos",
+        "instances": [
+          {
+            "selector": "section.vehicle-spotlight .gallery",
+            "sectionNumber": 10,
+            "sequenceNumber": 2
+          }
+        ]
+      },
+      {
+        "name": "cards",
+        "variant": "cards-cta",
+        "description": "Single CTA card with icon, heading, and description",
+        "instances": [
+          {
+            "selector": "section.send-me-updates button",
+            "sectionNumber": 11,
+            "sequenceNumber": 1
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "sectionNumber": 1,
+        "name": "Hero Billboard",
+        "metadata": null,
+        "defaultContent": []
+      },
+      {
+        "sectionNumber": 2,
+        "name": "Featured Offers",
+        "metadata": null,
+        "defaultContent": [
+          "section.featured-offers > h2",
+          "section.featured-offers > p"
+        ]
+      },
+      {
+        "sectionNumber": 3,
+        "name": "Highlights Carousel",
+        "metadata": null,
+        "defaultContent": []
+      },
+      {
+        "sectionNumber": 4,
+        "name": "Find Your Ford",
+        "metadata": null,
+        "defaultContent": [
+          "section.find-your-ford > p.eyebrow",
+          "section.find-your-ford > h1"
+        ]
+      },
+      {
+        "sectionNumber": 5,
+        "name": "Awards Carousel",
+        "metadata": null,
+        "defaultContent": []
+      },
+      {
+        "sectionNumber": 6,
+        "name": "Technology",
+        "metadata": null,
+        "defaultContent": [
+          "section.technology > h2",
+          "section.technology > p",
+          "section.technology > a"
+        ]
+      },
+      {
+        "sectionNumber": 7,
+        "name": "Buying A Ford",
+        "metadata": null,
+        "defaultContent": [
+          "section.buying-a-ford > h2",
+          "section.buying-a-ford > p"
+        ]
+      },
+      {
+        "sectionNumber": 8,
+        "name": "Owner Experience",
+        "metadata": null,
+        "defaultContent": []
+      },
+      {
+        "sectionNumber": 9,
+        "name": "Ford Inspires",
+        "metadata": null,
+        "defaultContent": [
+          "section.ford-inspires > p"
+        ]
+      },
+      {
+        "sectionNumber": 10,
+        "name": "Vehicle Spotlight",
+        "metadata": { "style": "dark" },
+        "defaultContent": [
+          "section.vehicle-spotlight > h2",
+          "section.vehicle-spotlight > p"
+        ]
+      },
+      {
+        "sectionNumber": 11,
+        "name": "Send Me Updates",
+        "metadata": null,
+        "defaultContent": []
+      }
+    ]
+  }
+  ]
+}
